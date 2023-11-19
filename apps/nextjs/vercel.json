@@ -1,0 +1,15 @@
+{
+  "github": {
+    "silent": true
+  },
+  "crons": [
+    {
+      "path": "/api/execution/cleanup",
+      "schedule": "*/5 * * * *"
+    },
+    {
+      "path": "/api/execution/deleteOld",
+      "schedule": "0 0 * * *"
+    }
+  ]
+}
